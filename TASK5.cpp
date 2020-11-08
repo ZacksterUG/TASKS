@@ -62,7 +62,4 @@ int main()
    for (int i = 0; i < count1; i++) printf("%d ",c1[i]);
    for (int i = 0; i < count2; i++) printf("%d ",c2[i]);
    return 0;
-
-
-
 }
