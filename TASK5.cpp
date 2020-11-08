@@ -44,7 +44,7 @@ int main()
       c1[i] = min1;
       c1[k] = buf;
    }
-   for (int i = 0; i < count2; i++)
+   for (int i = 0; i < count2-1; i++)
    {
       max1 = c2[i];
       for (j = i+1; j < count2; j++)
