@@ -29,7 +29,7 @@ int main()
    int min1 = c1[0];
    int max1 = c2[0];
    int buf;
-   for (int i = 0; i < count1; i++)
+   for (int i = 0; i < count1-1; i++)
    {
       min1 = c1[i];
       for (j = i+1; j < count1; j++)
