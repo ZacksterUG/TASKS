@@ -25,7 +25,7 @@ class Triangel: Figure{
 	}
 }
 
-class Rectangel: Figure{
+class Rectangel: Figure, PerimetrForEqual{
 	var Height: Double
 	var Width: Double
 	init(Height: Double,Width: Double){
